@@ -1,0 +1,34 @@
+﻿
+@{
+    ViewBag.Title = "About";
+}
+
+<!-- Page Content -->
+<div class="container">
+    <div class="row">
+        <!-- Kategoriler -->
+        <div class="col-md-3">
+            @Html.Partial("_PartialCategories")
+        </div>
+
+        <div class="col-md-7 col-md-offset-1">
+
+            <div class="row">
+                <h2 style="font-family:courier;" class="text-center">
+                    noTe Hakkında:
+                </h2>
+                <hr />
+                <img src="~/Images/logo1.png" class="center-block img-responsive img-rounded img-thumbnail" alt="noTe Logosu" style="width:250px;height:250px;" />
+                <hr />
+                <p style="font-family:courier;" >Bu web uygulaması dilediğince not paylaşımında bulunmak isteyen paylaşımcı insanlar için kurulmuştur.Bilgiler paylaştığınız sürece değerlidir.Kendine sakladığın bilgilerin ne yararını görebilirsin ki?</p>
+                <p style="font-family:courier;">Tek yapman gereken kayıt olmak,aktifleştirmek.Sonra istediğin kadar not paylaşıp beğenebilir ve yorum yapabilirsin.</p>
+                <p style="font-family:courier;">Bilginizi paylaşın ve değerlensin! <i class="far fa-smile-wink"></i></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section footer{
+    @Html.Partial("_PartialFooter")
+}
+            <script src="https://kit.fontawesome.com/157d13efef.js"></script>
